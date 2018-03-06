@@ -1,0 +1,178 @@
+/*Full body changes*/
+html, body {
+
+    width: 100%;
+    min-height: 100%;
+
+	/*background*/
+	background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.8), 
+      rgba(0, 0, 0, 0.8)
+    ),
+    /* bottom, image */
+    url(_images/back.jpg) no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+html{
+	margin: 0;
+}
+
+/*General item changes*/
+nav{
+    position: fixed;
+    top: 0;
+	left: 0;
+	right: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: whitesmoke;
+}
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0.5% 2.5% 0;
+	/*background: white;*/
+	line-height: 1.8;
+}
+h1 {
+	font: 7em Georgia, "Times New Roman", Times, serif;
+	margin-bottom: .2em;
+}
+h2 {
+	font: 5em Georgia, "Times New Roman", Times, serif;
+	margin-bottom: .2em;
+}
+h3 {
+	font-size: 3em;
+}
+p {
+    text-indent: 0px;
+	margin-bottom: 2em;
+    font-size: 200%;
+    color: whitesmoke;
+}
+a{
+    font-size: 120%;
+	color: black;
+}
+footer {
+	border-top: 1px solid gray;
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 4em;
+	margin-top: 1em;
+    color: whitesmoke;
+}
+
+/*Pagination styling*/
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+    z-index: 3;
+    color: black;
+    background-color: #d3d3d3;
+    border-color: black;
+}
+.pagination > li > a,
+.pagination > li > span{
+    color: black;
+    background-color: whitesmoke;
+}
+
+#pages li.active > a, #pages li.active > span{
+    background-color: #d3d3d3;
+    border-color: #d3d3d3;
+    color: black;
+    border: black;
+    pointer-events: none;
+}
+
+/*Making items full width*/
+.wide{
+	width: 100%;
+  	z-index: 0;
+}
+#width{
+	width:100%;
+}
+
+/*Changing the size of BLACK NAVBAR ITEMS*/
+#xlarge{
+	font-size: 250%;
+	color: black;
+}
+#large{
+	font-size:170%;
+	color: black; 
+}
+#medium{
+	font-size: 100%;
+	color: black;
+}
+
+/*Changine the size of WHITE PARAGRAPH ITEMS*/
+#psmall{
+	font-size: 170%;
+}
+#pbsmall{
+	font-size: 177%;
+	color: black;
+	line-height: 200%;
+}
+#pblarge{
+	font-size: 500%;
+	color: black;
+	line-height: 250%;
+}
+#smaller{
+	font-size: 70%;
+	line-height: 50%;
+}
+
+/*Specialized tags*/
+#whiteback{
+	background-color: white;
+}
+#justified{
+    font-size: 180%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+#centered{
+    font-size: 180%;
+	text-align: center;
+}
+#link{
+	color: white;
+	font-size: 200%;
+}
+#wborder{
+	border: 1px solid white;
+}
+#border{
+	padding-top: 15px;
+}
+#profile{
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+}
+
+/*Breadcrumbs modifications*/
+.breadcrumbs{
+    height: 100px;
+    text-align:center;
+    line-height:50px;
+}

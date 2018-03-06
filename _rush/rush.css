@@ -1,0 +1,11 @@
+.whiteLink{
+    color: white;
+    font-size: 300%;
+}
+.whiteLink:hover{
+    color: white;
+    font-size: 300%;
+}
+.whiteList{
+    list-style: none;
+}
